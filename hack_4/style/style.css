@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.linea {
+    height: 10px;
+    width: 15%;
+    background-color: black;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header h2 {
+    font-size: 136px;
+    color: #B88940;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 66px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-family: 'catamaran';
+    font-size: 20px;
+}
+
+.images {
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+    gap: 1.2rem;
+}
+
+
+.image {
+    width: 250px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    text-align: center;
+    flex-shrink: 0;
+    z-index: 1;
+
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lineas {
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 50px;
+    top: 80px;
+}
+
+.linea-fotos {
+    position: relative;
+    z-index: -1;
+    margin-top: 20px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 30px;
+    background-color: #FFBD59;
+    display: inline-block;
+}
+
+.image p {
+    font-family: 'catamaran';
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer h2 {
+    font-size: 50px;
+    color: #B88940;
+    margin-bottom: 10px;
+    font-family: 'Open sans';
+    font-weight: 800;
+}
+
+.footer p {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'catamaran';
+}
